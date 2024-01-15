@@ -15,8 +15,7 @@ app.use(express.json());
 
 // Option 2: Allow custom origins
 app.use(cors({
-    // origin:["http://mern-bookstore-ten.vercel"],
-    origin: ["https://mern-bookstore.vercel.app"],
+    origin: ["https://mern-bookstore-ten.vercel"],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type'],
 }));
