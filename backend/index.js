@@ -23,7 +23,7 @@ app.use(cors());
 
 app.get('/', (request, response) => {
   console.log(request);
-  return response.status(234).send('Welcome To MERN Stack Tutorial');
+  return response.status(234).send('MERN Stack');
 });
 
 app.use('/books', booksRoute);
@@ -38,8 +38,4 @@ mongoose
   })
   .catch((error) => {
     console.log(error);
-<<<<<<< Updated upstream
-});
-=======
   });
->>>>>>> Stashed changes
